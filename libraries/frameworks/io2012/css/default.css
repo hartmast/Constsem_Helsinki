@@ -1273,8 +1273,8 @@ article.smaller q:before, article.smaller q:after {
 
 /* line 884, ../scss/default.scss */
 aside.gdbar {
-  height: 97px;
-  width: 215px;
+  height: 194px;
+  width: 430px;
   position: absolute;
   left: -1px;
   top: 125px;
@@ -1329,11 +1329,11 @@ aside.gdbar.bottom {
 }
 /* line 913, ../scss/default.scss */
 aside.gdbar img {
-  width: 125px;
-  height: 85px;
+  width: 250px;
+  height: 170px;
   position: absolute;
   right: 0;
-  margin: 8px 15px;
+  margin: 16px 30px;
 }
 
 /* line 924, ../scss/default.scss */

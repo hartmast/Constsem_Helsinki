@@ -61,15 +61,15 @@ output:
 
 > - frequency distribution of both constructions: findings differ considerably (Žuikin 1975; Brons-Albert 1982; Matzel & Ulvestad 1982; Thieroff 1992)
 > - Matzel & Ulvestad (1982): comparison of *werden* + Inf. vs. futurate present regarding temporal vs. modal/epistemic readings
-> - Hilpert (2008): distinctive collexeme analysis - futurate present prefers telic verbs like *kommen* ‘come’ and *finden* ‘find’; *werden* + Infinitive “exhibits a preference for continuative events that unfold spontaneously” (Hilpert 2008: 176)
+> - Hilpert (2008): distinctive collexeme analysis - futurate present prefers telic verbs like *kommen* ‘come’ and *finden* ‘find’; *werden* + Infinitive exhibits a preference for stative and continuative verbs (Hilpert 2008: 141ff.)
 > - Hacke (2009): *werden* + Inf. entails a different "perspectivation" of the proposition - distance between (time of) utterance and (time of) proposition
-> - Gelhaus (1975): *werden* + Inf. adds "pathos" and "emotional weight" to the utterance
+> - Confais (1992), Fritz (2000), Mortelmans (2004), *inter alia*: *werden* + Infinitive signaling speaker-relatedness
 
 ---
 
 ## Present study
 
-- Which factors determine the choice of werden + Inf. vs. futurate present in contemporary German?
+- Which factors determine the choice of *werden* + Inf. vs. futurate present in contemporary German?
 
 - Does the choice of *werden* + Inf. over the futurate present lead to differences in the interpretation of utterances?
 
@@ -77,16 +77,16 @@ output:
 
 ## Corpus study
 
-- database: DWDS core corpus of the 21st century
-- search for future-related temporal adverbials like *morgen*, *bald*, etc. (search terms from Hilpert 2008)
-- 5000 hits randomly selected - 572 datapoints after manual deletion of false hits
-- manually annotated for
+> - database: DWDS core corpus of the 21st century
+> - search for future-related temporal adverbials like *morgen*, *bald*, etc. (search terms from Hilpert 2008)
+> - 5000 hits randomly selected - 572 datapoints after manual deletion of false hits
+> - manually annotated for
   - **CONSTRUCTION**: Is the futurate present or the werden + Infinitive construction used in the sentence?
   - **NEGATION**: Is the proposition negated?
   - **CLAUSE**: Does the construction occur in a main clause or a subordinate clause?
   - **VOICE**: Is the sentence in which the construction occurs framed in the active or in the passive voice?
   - **TEMPORAL DISTANCE**: Proximity of the event, if it can be inferred from the temporal adverbial
-  - **VERB LEMMA**: The lemma of the full verb.
+  - In addition: **GENRE** annotation from DWDS taken into account
 
 ---
 
@@ -116,62 +116,43 @@ output:
 
 ## Interim conclusion: Corpus study
 
-- TEMPORAL DISTANCE seems to make a difference: *werden* + Inf. preferred over futurate present when the sentence relates to the more distant future
+> - TEMPORAL DISTANCE seems to make a difference: *werden* + Inf. preferred over futurate present when the sentence relates to the more distant future
 
-- CLAUSE and VOICE as important formal predictors
+> - CLAUSE and VOICE as important formal predictors
 
-- however: results are very preliminary at this point!
-
----
-
-## Corpus study
-
-- near vs. distant future
-
-- near: up to 1 year or indefinite adverbials referring to the near future, e.g. *bald*, *demnächst*
-
-- distant: > 1 year, indefinite adverbials referring to more distant future, e.g. *in ferner Zukunft*
-
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:center;">  </th>
-   <th style="text-align:center;"> near </th>
-   <th style="text-align:center;"> distant </th>
-   <th style="text-align:center;"> indefinite </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:center;"> futurate present </td>
-   <td style="text-align:center;"> 123 </td>
-   <td style="text-align:center;"> 102 </td>
-   <td style="text-align:center;"> 97 </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> werden + Infinitive </td>
-   <td style="text-align:center;"> 60 </td>
-   <td style="text-align:center;"> 96 </td>
-   <td style="text-align:center;"> 94 </td>
-  </tr>
-</tbody>
-</table>
+> - however: results are very preliminary at this point!
 
 ---
 
 ## Experimental study
 
-- inspired by experimental approaches to progressive vs. non-progressive framing in Dutch and German (Flecken & Gerwien 2013, Hartmann 2016)
+> - inspired by experimental approaches to progressive vs. non-progressive framing in Dutch and German (Flecken & Gerwien 2013, Hartmann 2016)
 
-- designed with *jsPsych* (de Leeuw 2016)
+> - designed with *jsPsych* (de Leeuw 2016)
 
-- focus on the construal of temporal distance
+> - focus on the construal of temporal distance
 
 ---
 
 ## Experimental study
 
 <iframe src="http://pfriemelpfuhl.bplaced.net/TenseExperiment/Exp/TempSurvey%20copy%202.html"></iframe>
+
+---
+
+## Experimental study: Design
+
+> - 12 stimuli sentences
+
+> - 6 sentences framed in the futurate present, 6 using *werden* + Infinitive (randomized)
+
+> - 4 different temporal adverbials: *demnächst* 'soon', *in Kürze* 'shortly', *eines Tages* 'one day', *in naher Zukunft* 'in the near future'
+
+> - randomized order of trials
+
+> - sociodemographic metadata: gender, age, native language, education
+
+> - Hypothesis: *werden* + Infinitive might evoke a more distant-future construal compared to the futurate present
 
 ---
 
@@ -182,6 +163,12 @@ output:
 - 17 participants had to be excluded (16 did not move the slider, 1 did not state German as their native language)
 
 - analysis using mixed-effects modeling
+
+---
+
+## Experimental study: Results
+
+- data were log-transformed and *z*-scored
 
 ---
 
@@ -262,25 +249,35 @@ output:
 
 ## Conclusion
 
-- *werden* + Infinitive and futurate present can be used exchangably to a considerable extent
+> - *werden* + Infinitive and futurate present can be used exchangably to a considerable extent
 
-- In language production, there seems to be a slight preference for *werden* + Inf. when referring to distant-future events
+> - In language production, there seems to be a slight preference for *werden* + Inf. when referring to distant-future events
 
-- In language comprehension, the use of *werden* + Infinitive does not seem to entail a difference in event construal (at least in the presence of a temporal adverbial)
+> - In language comprehension, the use of *werden* + Infinitive does not seem to entail a difference in event construal (at least in the presence of a temporal adverbial)
 
 ---
 
 ## Outlook
 
-- Both studies presented here limited to future-related utterances **with temporal adverbial**
+> - Both studies presented here limited to future-related utterances **with temporal adverbial**
 
-- results can help understand important aspects of the semantics of both constructions - but for a fuller understanding, follow-up studies are needed
+> - results can help understand important aspects of the semantics of both constructions - but for a fuller understanding, follow-up studies are needed
 
-- follow-up corpus studies should take data **without** temporal adverbials into account and add the presence or absence of temporal adverbials as a further predictor
+> - follow-up corpus studies should take data **without** temporal adverbials into account and add the presence or absence of temporal adverbials as a further predictor
 
-- follow-up experimental studies should use a more balanced set of propositions in their stimuli sentences
+> - follow-up experimental studies should use a more balanced set of propositions in their stimuli sentences
 
-- also, a cross-linguistic approach seems desirable
+> - also, a cross-linguistic approach seems desirable
+
+---
+
+## Open questions
+
+> - How can / should we model the relation between simple present, futurate present, and *werden* + Infinitive in a constructional network?
+
+> - How can formal constraints inform our understanding of the semantics of a construction?
+
+> - How do different constructions interact with regard to their semantics?
 
 --- {
  tpl: thankyou
