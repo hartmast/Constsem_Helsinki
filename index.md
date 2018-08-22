@@ -32,16 +32,6 @@ output:
 
 ---
 
-## Overview
-
-- Previous research
-
-- Corpus study: DWDS21
-
-- Experimental study
-
----
-
 ## *werden* + Infinitive vs. futurate present
 
 (1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ich **werde** morgen ins Kino **gehen**.
@@ -54,6 +44,16 @@ output:
 (2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ich **gehe** morgen ins Kino.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(lit.) 'I go to the cinema tomorrow'
+
+---
+
+## Overview
+
+- Previous research
+
+- Corpus study: DWDS21
+
+- Experimental study
 
 ---
 
@@ -195,7 +195,7 @@ output:
 
 ## Experimental study: Results
 
-<img width=60% height=60% src="fig/exp_results3.png"></img>
+<img width=55% height=55% src="fig/exp_results3.png"></img>
 
 ---
 
