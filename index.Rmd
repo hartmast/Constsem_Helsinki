@@ -126,8 +126,6 @@ output:
 
 ## Experimental study
 
-> - inspired by experimental approaches to progressive vs. non-progressive framing in Dutch and German (Flecken & Gerwien 2013, Hartmann 2016)
-
 > - designed with *jsPsych* (de Leeuw 2016)
 
 > - focus on the construal of temporal distance
@@ -136,7 +134,7 @@ output:
 
 ## Experimental study
 
-<iframe src="http://pfriemelpfuhl.bplaced.net/TenseExperiment/Exp/TempSurvey%20copy%202.html"></iframe>
+<iframe src="/Users/stefanhartmann/Dropbox/Privat/Projekte/werdenFutur/TenseExperiment/Exp/TempSurvey copy 2.html"></iframe>
 
 ---
 
